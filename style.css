@@ -19,7 +19,7 @@ body {
 h1, h2, h3, h4 {
   font-weight: bold;
   margin-bottom: 10px;
-  color: blue;
+  color: blue; 
 }
 
 h1 {
@@ -39,7 +39,7 @@ h3 {
 }
 
 a {
-  color: #3498db;
+  color: #3498db; 
   text-decoration: none;
 }
 
@@ -50,39 +50,39 @@ a:hover {
 /* Style pour la navigation */
 header {
   background-color: #42a5f5; /* Bleu */
-  padding: 15px 0; /* Ajustez l'espacement vertical */
-  position: fixed; /* Fixe le header en haut de la page */
+  padding: 15px 0; 
+  position: fixed; 
   width: 100%;
   top: 0;
-  z-index: 10; /* Assure que le header reste au-dessus des autres éléments */
+  z-index: 10; 
 }
 
 nav {
   display: flex;
-  justify-content: space-between; /* Espace les éléments */
-  align-items: center; /* Alignement vertical au centre */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 nav ul {
-  list-style: none; /* Enlève les puces */
+  list-style: none; 
   margin: 0;
   padding: 0;
-  display: flex; /* Affiche les liens en ligne */
+  display: flex; 
 }
 
 nav li {
-  margin-left: 30px; /* Espace entre les liens */
+  margin-left: 30px; 
 }
 
 nav a {
-  color: white; /* Texte blanc */
+  color: white; 
   text-decoration: none;
-  font-size: 16px; /* Ajustez la taille de la police */
+  font-size: 16px; 
 }
 
 nav a.logo {
   font-weight: bold;
-  font-size: 24px; /* Ajustez la taille de la police du logo */
+  font-size: 24px; 
 }
 
 /* Style du bouton hamburger (caché par défaut sur grand écran) */
@@ -94,13 +94,21 @@ nav a.logo {
 #accueil {
   background-color: #ecf0f1;
   text-align: center;
-  padding: 100px 0; /* Ajustez le padding pour tenir compte du header fixe */
+  padding: 100px 0; 
 }
 
 #accueil p {
   font-size: 1.2em;
   margin-bottom: 30px;
 }
+
+#accueil img { /* Style pour l'image dans la section Accueil */
+  max-width: 80%; 
+  height: auto;
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 
 /* Section Fonctionnalités */
 #fonctionnalites {
@@ -114,7 +122,7 @@ nav a.logo {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  position: relative; /* Positionnement relatif pour le bouton */
+  position: relative; 
 }
 
 .feature-content {
@@ -126,13 +134,13 @@ nav a.logo {
   width: 50%;
 }
 
-.text-col { /* Centre le contenu de .text-col, y compris le bouton */
+.text-col { 
   text-align: center;
 }
 
 .feature img {
-  width: 100%; /* Image prend toute la largeur du conteneur */
-  max-width: 500px; /* Limite la largeur maximale de l'image */
+  width: 100%; 
+  max-width: 500px; 
   height: auto;
   border-radius: 5px;
   display: block;
@@ -152,16 +160,16 @@ nav a.logo {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  display: none; /* Caché par défaut */
+  display: none; 
 }
 
 .feature:hover .voir-plus {
-  display: inline-block; /* Affiché au survol */
+  display: inline-block; 
 }
 
 .text-content {
-  max-height: 350px; /* Hauteur initiale limitée */
-  overflow: hidden; /* Cache le contenu qui dépasse */
+  max-height: 350px; 
+  overflow: hidden; 
   transition: max-height 0.3s ease;
 }
 
@@ -183,7 +191,7 @@ nav a.logo {
 
 .inscription-details ul,
 .coefficient-details ul,
-.text-col ul { /* Appliquer à tous les ul dans .text-col */
+.text-col ul { 
   list-style-type: disc;
   margin-left: 20px;
   padding: 0;
@@ -192,7 +200,7 @@ nav a.logo {
 
 .inscription-details li,
 .coefficient-details li,
-.text-col li { /* Appliquer à tous les li dans .text-col */
+.text-col li { 
   margin-bottom: 5px;
   text-align: left;
 }
@@ -213,7 +221,7 @@ nav a.logo {
 
 .avantages-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
 }
 
@@ -233,7 +241,7 @@ nav a.logo {
 
 .temoignages-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
 }
 
@@ -251,14 +259,14 @@ nav a.logo {
 }
 
 #ressources h2 {
-  margin: 0; /* Supprime la marge du h2 */
-  text-align: center; /* Centre le h2 */
+  margin: 0; 
+  text-align: center; 
 }
 
 #ressources a {
-  display: block; /* Permet de centrer le lien horizontalement */
-  text-align: center; /* Centre le texte du lien */
-  margin: 10px 0; /* Ajoute une petite marge au-dessus et en-dessous du lien */
+  display: block; 
+  text-align: center; 
+  margin: 10px 0; 
 }
 
 /* Section Contact */
@@ -280,7 +288,7 @@ nav a.logo {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #contact input,
@@ -317,8 +325,8 @@ nav a.logo {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: none; /* Cachée par défaut */
-  opacity: 0.7; /* Légèrement transparent */
+  display: none; 
+  opacity: 0.7; 
   transition: opacity 0.3s ease;
 }
 
@@ -333,55 +341,55 @@ nav a.logo {
   background-color: #3498db;
   color: white;
   text-align: center;
-  line-height: 40px; /* Centre le texte verticalement */
+  line-height: 40px; 
   border-radius: 50%;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  /* Pour les petits écrans, on empile les colonnes */
+  
   .feature-content {
     flex-direction: column;
   }
 
   .feature-content > div {
-    width: 100%; /* Chaque colonne prend 100% de la largeur sur mobile */
+    width: 100%; 
   }
 
   .avantages-grid,
   .temoignages-grid {
-    grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+    grid-template-columns: 1fr; 
   }
 
   .voir-plus {
-    display: inline-block; /* Afficher le bouton par défaut sur mobile */
+    display: inline-block; 
   }
 
   .feature:hover .voir-plus {
-    display: inline-block; /* Ne pas le cacher au survol sur mobile */
+    display: inline-block; 
   }
 
-  /* Navigation responsive (menu hamburger) */
+  
   nav {
-    flex-direction: column; /* Affiche le logo et le menu en colonne */
+    flex-direction: column; 
   }
 
   nav ul {
-    flex-direction: column; /* Empile les liens verticalement */
+    flex-direction: column; 
     width: 100%;
     background-color: #42a5f5;
-    display: none; /* Cache le menu par défaut */
-    margin-top: 10px; /* Espace entre le logo et le menu */
+    display: none; 
+    margin-top: 10px; 
   }
 
   nav li {
-    margin: 10px 0; /* Ajuste la marge pour l'affichage vertical */
-    text-align: center; /* Centre les liens */
+    margin: 10px 0; 
+    text-align: center; 
   }
 
-  /* Style du bouton hamburger */
+  
   .hamburger {
-    display: block; /* Affiche le bouton hamburger */
+    display: block; 
     width: 30px;
     height: 3px;
     background-color: white;
@@ -400,7 +408,7 @@ nav a.logo {
     transition: 0.3s;
   }
 
-  /* Animation du menu */
+  
   nav.open ul {
     display: block;
   }
@@ -413,8 +421,8 @@ nav a.logo {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-  /* Flèche de remontée */
+  
   .scroll-to-top {
-    display: block; /* Affiche la flèche sur mobile */
+    display: block; 
   }
 }
