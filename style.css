@@ -345,6 +345,19 @@ nav a.logo {
   border-radius: 50%;
 }
 
+/* Style du footer */
+footer {
+  background-color: #333; /* Couleur de fond sombre */
+  color: #fff; /* Texte blanc */
+  padding: 10px 0; 
+  text-align: center; 
+}
+
+footer .copyright {
+  font-size: 0.9em; 
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   
