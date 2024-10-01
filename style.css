@@ -100,6 +100,7 @@ nav a.logo {
 #accueil p {
   font-size: 1.2em;
   margin-bottom: 30px;
+  text-align: center; /* Justifier le paragraphe */
 }
 
 #accueil img { /* Style pour l'image dans la section Accueil */
@@ -233,6 +234,10 @@ nav a.logo {
   text-align: center;
 }
 
+.avantage p { /* Justifier les paragraphes dans les avantages */
+  text-align: justify;
+}
+
 /* Section Témoignages */
 #temoignages {
   padding: 1px 0;
@@ -251,6 +256,10 @@ nav a.logo {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-style: italic;
+}
+
+.temoignage p { /* Justifier les paragraphes dans les témoignages */
+  text-align: justify;
 }
 
 /* Section Ressources */
@@ -275,49 +284,12 @@ nav a.logo {
   background-color: #f8f9fa;
 }
 
-#contact .contact-form {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-}
-
-#contact form {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#contact input,
-#contact textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-#contact button {
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#contact button:hover {
-  background-color: #2980b9;
-}
-
 #contact .contact-info {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrer le contenu horizontalement */
 }
 
 /* Flèche de remontée */
